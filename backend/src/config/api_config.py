@@ -16,6 +16,6 @@ class Config:
     #SESSION_COOKIE_HTTPONLY = False
     #SESSION_COOKIE_SAMESITE = 'None'
 
-    ALLOWED_ORIGINS = [os.getenv('DEV_CORS_ENDPOINT'),'http://localhost:5173']  # Default to localhost
+    ALLOWED_ORIGINS = ['http://0.0.0.0:5173']  # Default to localhost or your ip adress
 
 
