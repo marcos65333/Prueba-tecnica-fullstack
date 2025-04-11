@@ -1,0 +1,8 @@
+
+backend/venv/lib/python3.12/site-packages/wtforms/locale/fr/LC_MESSAGES/wtforms.mo
+*.py
+backend/venv/lib/python3.12/site-packages/wtforms/widgets/__pycache__/core.cpython-312.pyc
+*.pyc
+*.mo
+*.po
+*.pot
