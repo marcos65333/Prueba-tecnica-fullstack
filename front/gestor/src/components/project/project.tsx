@@ -114,7 +114,7 @@ export default function ComponentProjects({ projects, setProyect }: ComponentPro
               <div className="space-y-2">
                 <Box className="flex justify-between items-center ">
                   <Typography variant="h6" fontWeight="bold" className="text-gray-800" sx={{ lineHeight: 1.3 }}>
-                    {item.title} {item.project_id}
+                    {item.title}
                   </Typography>
 
                   <StatusBadge status={item.status} />
