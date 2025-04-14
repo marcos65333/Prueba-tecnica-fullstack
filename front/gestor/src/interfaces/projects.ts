@@ -13,15 +13,3 @@ export interface IProject {
     technologies_used:ITechnology[];
 }
 
-export type Project = {
-    project_id: number;
-    title: string;
-    responsible: string;
-    start_date: string;
-    end_date: string;
-    created_at: string;
-    updated_at: string;
-    status: "Start" | "Stop" | "In Process" | "Restart";
-    technologies_used:ITechnology[];
-}
-export type ProjectStatus = "Start" | "Stop" | "In Process" | "Restart";
